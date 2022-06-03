@@ -38,11 +38,19 @@ public class Location {
         this.lat = lat;
         this.lon = lon;
     }
+    
+    public void setLat(Double lat) {
+        this.lat = lat;
+    }
 
     public Double getLat() {
         return lat;
     }
 
+    public void setLon(Double lon) {
+        this.lon = lon;
+    }
+    
     public Double getLon() {
         return lon;
     }
